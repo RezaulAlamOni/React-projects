@@ -14,7 +14,7 @@ class Message extends Component{
             counter : ++this.state.counter
         })
     }
-    decrement(){
+    decrement( ){
         if (this.state.counter > 0){
             this.setState({
                 counter : --this.state.counter
